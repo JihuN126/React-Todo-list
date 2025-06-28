@@ -1,0 +1,31 @@
+.Editor {
+    display: flex;
+    gap: 10px;
+}
+
+.Editor input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.Editor input:focus {
+  outline: none;
+  border: 1px solid #A5E2DC; /* 연민트 색상 */
+  box-shadow: 0 0 5px #A5E2DC55; /* 살짝 빛나는 효과 */
+}
+.Editor button {
+  cursor: pointer;
+  width: 80px;
+  border: 1px solid #40B5AD; /* 청록 테두리 */
+  background-color: #A5E2DC;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 입체감 */
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.Editor button:hover {
+  background-color: #40B5AD;
+  transform: translateY(-2px); /* 마우스 올릴 때 살짝 떠오르게 */
+}

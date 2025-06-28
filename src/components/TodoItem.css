@@ -1,0 +1,43 @@
+.TodoItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    min-height: 40px;
+}
+
+.TodoItem input {
+    width: 20px;
+    accent-color: #A5E2DC
+}
+
+.TodoItem .content {
+    flex:1;
+    display:flex;
+    align-items: center;
+    height:100%;
+    line-height: 1.4;
+}
+
+.TodoItem .date {
+    font-size: 14px;
+    color: gray;
+}
+
+.TodoItem button {
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  border: 1px solid #f48fb1; /* 연분홍 테두리 */
+  background-color: #F8C8DC;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.TodoItem button:hover {
+  background-color: #f48fb1; /* 진한 연분홍 */
+  transform: translateY(-1px);
+}
