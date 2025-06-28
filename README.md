@@ -1,12 +1,14 @@
-# React + Vite
+![image](https://github.com/user-attachments/assets/0798f33e-4f16-46ea-9bf3-f12031815c4e)
+## 🧩 주요 기능
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- ✅ Todo 항목 추가 및 삭제
+- 🔍 키워드로 실시간 검색
+- 🗓️ 작성 날짜 표시
+- ✔️ 체크박스로 완료 상태 표시
 
-Currently, two official plugins are available:
+## 📚 React 공부 포인트
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `useState`, `props`, `map()` 사용하여 동적 렌더링 구현
+- 조건부 렌더링 (`checked`, `filter`)
+- 컴포넌트 분리 (`TodoItem`, `List`, `Editor`)
+- CSS로 사용자 친화적인 UI 구현 (flex 정렬, transition 효과 등)
