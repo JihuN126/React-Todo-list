@@ -1,14 +1,39 @@
-![image](https://github.com/user-attachments/assets/0798f33e-4f16-46ea-9bf3-f12031815c4e)
+
 ## 🧩 주요 기능
 
 - ✅ Todo 항목 추가 및 삭제
-- 🔍 키워드로 실시간 검색
-- 🗓️ 작성 날짜 표시
-- ✔️ 체크박스로 완료 상태 표시
+- 🔍 키워드로 실시간 검색 기능
+- 🗓️ 작성 날짜 자동 표시
+- ✔️ 체크박스를 통한 완료 상태 관리
+
+## 📷 Preview
+![image](https://github.com/user-attachments/assets/0798f33e-4f16-46ea-9bf3-f12031815c4e)
 
 ## 📚 React 공부 포인트
 
-- `useState`, `props`, `map()` 사용하여 동적 렌더링 구현
-- 조건부 렌더링 (`checked`, `filter`)
-- 컴포넌트 분리 (`TodoItem`, `List`, `Editor`)
-- CSS로 사용자 친화적인 UI 구현 (flex 정렬, transition 효과 등)
+### 🔧 기능 구현을 위한 핵심 개념
+
+- `useState` : 상태 관리 (입력값, 리스트, 체크 상태 등)
+- `props` : 컴포넌트 간 데이터 전달
+- `map()` : Todo 항목을 동적으로 렌더링
+- 조건부 렌더링 : `checked`, `filter`를 활용한 UI 표시
+
+### 🧱 컴포넌트 구조
+
+- `TodoItem` : 단일 항목 렌더링
+- `List` : 전체 항목 목록 출력 및 검색 필터링
+- `Editor` : 새 항목 입력 및 추가
+
+### 🎨 UI 및 스타일링
+
+- `flex`, `gap`, `padding` 등을 활용한 정돈된 레이아웃
+- `hover`, `transition` 효과로 사용자 경험 향상
+
+---
+
+## 🚀 프로젝트 요약
+
+React의 기본 개념들을 실제로 조합하여,
+할 일 추가/삭제/완료/검색 기능까지 구현한 간단한 Todo 웹앱입니다.  
+핵심적인 개념을 명확히 이해하고, 실습을 통해 감각을 익힐 수 있는 구조로 제작되었습니다.
+
